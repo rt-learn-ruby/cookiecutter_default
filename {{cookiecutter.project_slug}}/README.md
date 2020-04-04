@@ -11,9 +11,14 @@ Install rubocop globally.  `gem install rubocop`
 
 Run `bundle install` to install packages.
 
+## Testing
+
+`rspec`
+
 ## Fixing lint warnings/errors
 
 Run `rubocop -a` to autofix fixable violations.
+If you get `You must use Bundler 2 or greater with this lockfile.`, you can delete the Gemfile.lock and regenerate it with `bundle install`.
 
 ## Credits
 
